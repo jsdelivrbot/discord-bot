@@ -1,0 +1,19 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.eslintrc.json
+.babelrc
+.vscode
+.DS_Store
+RunBot.bat
+RunNodeTest.bat
+DebugBot.bat
+package-lock.json
+
+# Docker
+Dockerfile
+docker-compose.yml

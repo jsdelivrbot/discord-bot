@@ -1,0 +1,33 @@
+{
+  "name": "discordbot",
+  "version": "2.0.1",
+  "description": "Improved chat bot for Les Deplorables Discord server",
+  "main": "App.js",
+  "scripts": {
+    "start": "node ./src/App.js",
+    "test": "node ./src/test/nodeTest.js",
+    "debug": "node --nolazy --debug-brk=3751 ./src/App.js"
+  },
+  "author": "albiejames",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.5.4",
+    "node-opus": "^0.2.7",
+    "performance-now": "^2.1.0",
+    "request": "^2.88.0",
+    "twitter": "^1.7.1",
+    "wrappy": "^1.0.2",
+    "ytdl-core": "^0.20.1"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^4.18.2"
+  },
+  "engines": {
+    "node": "9.7.0",
+    "npm": "5.6.0"
+  }
+}

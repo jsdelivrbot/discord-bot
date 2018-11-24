@@ -1,0 +1,61 @@
+{
+	"defaultResponseToKeywords": "s",
+	"maxMemberMuteCount": 30,
+	"maxRepeatedResponse": 50,
+	"defaultBotPresenceType": "WATCHING",
+	"defaultBotPresenceName": "netfux-n-chill.org",
+	"defaultBotPresenceUrl": "https://b.com",
+	"commands_dir": "/commands",
+	"commands": [
+		{
+			"name": "Help",
+			"main": "Util/Help"
+		},
+		{
+			"name": "Eval",
+			"main": "Util/Eval"
+		},
+		{
+			"name": "Play",
+			"main": "Play/Play",
+			"options": {
+				"playStreamPasses": 5,
+				"playStreamVolume": 0.2,
+				"playStreamLoadingTimeout": 10.0,
+				"playStreamAttempts": 2
+			}
+		},
+		{
+			"name": "Delete",
+			"main": "Util/Delete"
+		},
+		{
+			"name": "Define",
+			"main": "Define/Urban"
+		},
+		{
+			"name": "Test",
+			"main": "Util/Test"
+		},
+		{
+			"name": "Strain",
+			"main": "Night/Strain"
+		}
+	],
+	"extensions": [
+		{
+			"name": "Daily",
+			"path": "src/bot/extensions/Daily",
+			"options": {
+
+			}
+		},
+		{
+			"name": "Tweeter",
+			"path": "src/bot/extensions/Tweeter",
+			"options": {
+
+			}
+		}
+	]
+}
